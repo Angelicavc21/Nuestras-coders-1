@@ -1,0 +1,57 @@
+hr{
+  width: 100px;
+  margin-left: 2px;
+  border: 2px solid black;
+}
+
+h1{
+  margin-bottom: 2px;
+}
+
+main{
+   /* outline: 1px solid black;*/
+    width: 100px;
+    display: inline-block;
+}
+
+.firstblock{
+width:400px;
+padding: 35px;
+box-sizing: border-box;
+display:inline-flex;
+}
+
+.secondblock{
+  width:400px;
+  padding: 35px;
+  box-sizing: border-box;
+  display:inline-flex;
+  bottom: -40px;
+}
+
+img {
+     max-height: 100%;
+     
+ }
+
+.firstblock div {
+    position: relative;
+    bottom: -120px;
+    float: right;
+    right: 70px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-shadow: -1px -1px 1px #000
+ }
+
+ .secondblock div{
+    position: relative;
+    bottom: -120px;
+    float: right;
+    right: 70px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-shadow: -1px -1px 1px #000
+ }
